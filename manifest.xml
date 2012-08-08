@@ -1,0 +1,9 @@
+<package>
+  <description brief="vizkit_3d_plugins">
+      Generic Package that contains different kind of Visualization plugins like ans osgEarth map visualization.
+  </description>
+  <author>Matthias Goldhoorn/matthias@goldhoorn.eu</author>
+  <license>dummy-license</license>
+  <depend package="gui/vizkit" />
+  <depend package="osgEarth" />
+</package>
