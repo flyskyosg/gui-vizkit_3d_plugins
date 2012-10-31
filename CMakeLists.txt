@@ -3,7 +3,7 @@
 
 
 cmake_minimum_required(VERSION 2.6)
-include($ENV{ROCK_CMAKE_MACROS}/Rock.cmake)
+find_package(Rock)
 rock_init(vizkit_3d_plugins 0.1)
 rock_standard_layout()
 
