@@ -4,6 +4,7 @@
   </description>
   <author>Matthias Goldhoorn/matthias@goldhoorn.eu</author>
   <license>LGPL</license>
+  <depend package="base/types" />
   <depend package="gui/vizkit" />
   <depend package="osgEarth" />
 </package>
