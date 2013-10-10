@@ -2,9 +2,9 @@
 #include "osgEarth.hpp"
 #include <osgDB/ReadFile>
 #include <ogr_spatialref.h>
-#include <base/logging.h>
+#include <base/Logging.hpp>
 
-using namespace vizkit;
+using namespace vizkit3d;
 
 
 #ifndef PATH_TO_EARTH_FILE

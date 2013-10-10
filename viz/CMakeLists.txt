@@ -13,6 +13,7 @@ rock_vizkit_plugin(osgEarth-viz
     osgEarth.cpp
     #    DEPS osgEarth
     MOC osgEarth.hpp
+    DEPS_PKGCONFIG base-types
     HEADERS osgEarth.hpp)
 
 target_link_libraries(osgEarth-viz

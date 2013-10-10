@@ -2,17 +2,17 @@
 #define osgEarth_osgEarth_H
 
 #include <boost/noncopyable.hpp>
-#include <vizkit/Vizkit3DPlugin.hpp>
+#include <vizkit3d/Vizkit3DPlugin.hpp>
 #include <osg/Geode>
-//#include <base/samples/rigid_body_state.h>
+#include <base/Eigen.hpp>
 #include <osg/MatrixTransform>
 #include <osg/MatrixTransform>
 
 
-namespace vizkit
+namespace vizkit3d
 {
     class osgEarth
-        : public vizkit::Vizkit3DPlugin<int>
+        : public vizkit3d::Vizkit3DPlugin<int>
         , boost::noncopyable
     {
     Q_OBJECT
