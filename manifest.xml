@@ -7,4 +7,5 @@
   <depend package="base/types" />
   <depend package="gui/vizkit3d" />
   <depend package="osgEarth" />
+  <depend package="gdal" />
 </package>
