@@ -3,6 +3,7 @@
       Generic Package that contains different kind of Visualization plugins like ans osgEarth map visualization.
   </description>
   <author>Matthias Goldhoorn/matthias@goldhoorn.eu</author>
+  <maintainer>Matthias Goldhoorn/matthias.goldhoorn@uni-bremen.de</maintainer>
   <license>LGPL</license>
   <depend package="base/types" />
   <depend package="gui/vizkit3d" />
